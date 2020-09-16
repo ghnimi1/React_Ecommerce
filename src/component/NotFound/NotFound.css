@@ -1,0 +1,27 @@
+.notfound{    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    min-height: 510px;
+    
+}
+.notfound .linkhome{
+    width: 90%;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.errorpage{
+    font-weight: bold;
+    border-bottom:2px solid teal;
+    font-size: 100px;
+    width: 90%;
+    text-align: center;
+    color: red;
+}
+.pagenotfound{
+    font-size: 70px;
+}

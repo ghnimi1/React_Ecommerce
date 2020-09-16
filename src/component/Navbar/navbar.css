@@ -1,0 +1,48 @@
+
+nav i span{
+    color: #898ae6;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 5px;
+}
+.form-inline i{
+    color: blue;
+    position: relative;
+    top: 10%;
+    right: 1%;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.form-inline i:hover{
+    color: cornflowerblue;
+}
+.form-inline i span{
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+    top: -28%;
+    right: -28%;
+}
+.navbar-brand i{
+    color: blue;
+}
+.navbar{
+    background-color:white;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+ }
+#navbarSupportedContent ul li a{
+font-size: 18px;
+}   
+
+#navbarSupportedContent ul li a:hover{
+    color: white;
+    }
+    
+
+#navbarSupportedContent ul li:hover,.nav-item a:hover{
+border: 0.5px solid rgb(134, 134, 236);
+border-radius: 3px;
+background-color: cornflowerblue;
+}

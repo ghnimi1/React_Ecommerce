@@ -1,0 +1,77 @@
+#deta{
+    background-color: white;
+    height: auto;   
+    box-sizing: border-box;
+    padding-bottom: 2px;
+}
+#details{    
+    border: 1px solid black;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+
+ }
+ #details > div img{
+     height: 300px;
+ }
+ #details > div >div img{
+     display: flex;
+     flex-direction: column;
+     height: 150px;
+ }
+ #brand{
+     color: tomato;
+ }
+ .description span{
+    color: rgb(116, 184, 230);
+ }
+ .description{
+    font-size: large;
+    justify-items: center;
+ }
+ .livr{
+     background-color: #ccc;
+     color: black;
+     padding: 20px 50px;
+     margin: auto;
+     width: 80%;
+     font-size: 14px;
+     font-weight: bold;
+ }
+ .livr span{
+     color: red;
+ }
+ .title{
+     padding: 20px;
+     margin-bottom: 20px;
+     border-bottom: 1px solid #ccc;
+ }
+ .title h5{
+  color:rgb(116, 184, 230); ;
+ }
+ .paiement{
+     border: 1px solid slategrey;
+     width: 200px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     padding: 10px 0px;
+ }
+ .paiement p{
+     color: red;
+     font-weight: bold;
+     font-size: 30px
+ }
+ .paiement span{
+     font-weight: bold;
+     color: sandybrown;
+     margin-bottom: 10px;
+ }
+ .paiement button{
+     width: 90%;
+ }
+ .paiement button i{
+     margin-right: 5px;
+ }
